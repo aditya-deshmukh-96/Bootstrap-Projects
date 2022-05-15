@@ -1,0 +1,15 @@
+body::before {
+  content: "";
+  display: block;
+  height: px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+
+  .learn {
+    order: 1;
+  }
+}
